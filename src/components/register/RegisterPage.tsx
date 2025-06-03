@@ -162,7 +162,7 @@ const RegisterPage = () => {
             <label className={styles.checkboxContainer + " text-sm text-[#333333]"}>
               <input type="checkbox" className="mr-2" id="terms" required />
                 Acepto los
-              <a href="#" className="text-[#8FA889] underline ml-1">
+              <a href="/terms" className="text-[#8FA889] underline ml-1">
                 términos y condiciones
               </a>
             </label>
