@@ -432,7 +432,19 @@ export default function Personalize() {
           {/* Cantidad y Precios */}
           <div className="mb-6 border-t border-gray-300 pt-4">
             <div className="space-y-1 text-right">
-              <p className="text-sm text-gray-600">Subtotal: ${pricePerUnit.toLocaleString()}</p>
+              <p className="text-sm text-gray-600">
+                Vela personalizada: $ {pricePerUnit.toLocaleString()}
+              </p>
+              <p className="text-sm text-gray-600">
+                Complemento: $ {(selectedComplementary?.price ? Number(selectedComplementary.price) : 0).toLocaleString()}
+              </p>
+              <p className="text-base font-semibold text-gray-800 mt-2">
+                Subtotal: $
+                {(
+                  pricePerUnit +
+                  (selectedComplementary?.price ? Number(selectedComplementary.price) : 0)
+                ).toLocaleString()}
+              </p>
             </div>
           </div>
           {/* Botones de acción */}
