@@ -1,0 +1,134 @@
+/* Estilos adicionales para el componente RegisterPage */
+
+.container {
+  background-color: #FBF9F5;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.leftIcon, .rightIcons span {
+  font-size: 20px;
+  color: #555555;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888888;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.mainTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mainSubtitle {
+  font-size: 16px;
+  color: #888888;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 14px;
+  color: #333333;
+}
+
+.input {
+  padding: 10px;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.passwordContainer {
+  display: flex;
+  align-items: center;
+}
+
+.eyeIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* Added styles for the password visibility icons */
+
+.passwordIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.submitButton {
+  background-color: #8FA889;
+  color: #FBF9F5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #888888;
+}
+
+.loginPrompt {
+  font-size: 12px;
+  color: #888888;
+}
+
+.loginPrompt a {
+  color: #8FA889;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  color: #888888;
+  margin-top: 20px;
+}
