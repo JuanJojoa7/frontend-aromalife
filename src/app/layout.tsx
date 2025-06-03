@@ -178,8 +178,6 @@ function AppContent({ children }: { children: React.ReactNode }) {
             <h5 className="text-lg font-semibold text-white mb-3">Atención al Cliente</h5>
             <ul>
               <li><a href="https://wa.me/573126986165" className="hover:text-white">Contactar Asistente</a></li>
-              <li><a href="#" className="hover:text-white">Preguntas Frecuentes</a></li>
-              <li><a href="#" className="hover:text-white">Envíos</a></li>
               <li><a href="/returns" className="hover:text-white">Devoluciones</a></li>
             </ul>
           </div>
