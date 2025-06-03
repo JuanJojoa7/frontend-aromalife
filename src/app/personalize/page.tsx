@@ -227,7 +227,7 @@ export default function Personalize() {
                 >
                   <div className="aspect-square bg-gray-100">
                     <img
-                      src={containerImageMap[container.name] || "/images/fragrancias/default.png"}
+                      src={containerImageMap[container.name] || "/images/fragrancias/vela-decorativa.jpg"}
                       alt={container.name}
                       className="w-full h-full object-cover"
                     />
@@ -258,7 +258,7 @@ export default function Personalize() {
                 >
                   <div className="aspect-square bg-gray-100 flex items-center justify-center text-xl">
                     <img
-                      src={fragranceImageMap[fragrance.name] || "/images/fragrancias/default.png"}
+                      src={fragranceImageMap[fragrance.name] || "/images/fragrancias/vela-decorativa.jpg"}
                       alt={fragrance.name}
                       className="w-full h-full object-cover"
                     />

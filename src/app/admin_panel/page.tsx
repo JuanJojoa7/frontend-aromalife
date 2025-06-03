@@ -67,8 +67,8 @@ const AdminPanelPage = () => {
   const fragranceImageMap: Record<string, string> = {
     "Brisa Citrica": "/images/fragrancias/Brisa_Citrica.png",
     "Horizonte Marino": "/images/fragrancias/Horizonte_Marino.png",
-    "Jardin al Anochecer": "/images/fragrancias/Jardin_al_Anochecer.jpeg",
-    "Luna de Seda": "/images/fragrancias/Luna_de_Seda.png",
+    "Jardin al Anochecer": "/images/fragrancias/Jardin_al_anochecer.jpeg",
+    "Luna de Seda": "/images/fragrancias/Luna_de_seda.png",
     "Niebla de Algodon": "/images/fragrancias/Niebla_de_algodon.png",
     "Ritual de Lavanda": "/images/fragrancias/Ritual_de_Lavanda.png",
   };
